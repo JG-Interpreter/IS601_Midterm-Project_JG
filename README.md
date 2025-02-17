@@ -1,1 +1,1 @@
-# IS601_JG
+# IS601_Midterm-Project_JG
