@@ -1,6 +1,6 @@
 # IS601_Midterm-Project_JG
 
-For the new Dosa restaurant, I have created a Python script that takes in orders in the JSON format and outputs 2 new JSON files: 
+For the new Dosa restaurant I have created a Python script that takes in orders in the JSON format and outputs 2 new JSON files: 
 
 1st file is a customers.json file that contains an object with phone numbers as keys and customers names as values. 
 
