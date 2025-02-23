@@ -6,7 +6,6 @@ class DosaOrderParse():
         The first operation reads customer info and outputs another json file with phone # and customer name. 
         Second operation reads items ordered and outputs a json file with oder item name, price of item, and count of orders of such type. 
     """
-
     def order_parse(filename):
         try: 
             with open(filename, 'r') as f:
@@ -25,7 +24,6 @@ class DosaOrderParse():
             identfy instances of a dictionary with name and phone as keys. Combine the two objects with phone as key and
             name as value for output to new json using the 'w' write mode. 
         """
-
         customer_info = {}
         for item in data:
             if isinstance(item, dict) and 'name' in item and 'phone' in item:
